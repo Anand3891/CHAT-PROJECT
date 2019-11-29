@@ -1,0 +1,1002 @@
+
+
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript" >
+var _CFPARAMNAME = "zls_csrparam";
+var _CFCNAME = "LS_CSRF_TOKEN";
+var _LOGINZUID='701847742'; 	 
+var _USEREMAIL="anand.imac.sri@gmail.com"; 
+var _SCHEMA='https'; 
+var _PHOTOSERVER='https://contacts.zoho.com'; 
+var _SERVERURL='salesiq.zoho.com'; 
+var _ISZOHOSUPPORT='true';
+var _NOREPLYEMAILID='SalesIQ<noreply@zohosalesiq.com>';
+var _UPLOADSERVERURL='https://upload.zoho.com';
+var _ZSIQDOWNLOADSERVERURL='https://download.zohopublic.com';
+var _SIQSERVICENAME='LiveDesk';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript" >
+var _LANG= "en"; 
+var _CCODE= "US";
+var _LINKS = {
+   invokeactionhelp: 'https://www.zoho.com/salesiq/help/developer-section/js-api-event-visitor-trigger.html',
+   cannedmessages: 'https://www.zoho.com/salesiq/help/canned-messages.html?source=product#canned',
+   imbottest: 'https://www.zoho.com/salesiq/help/Connect-Google-Account-with-salesIQ.html?source=product#connect-gmail',
+   leadscore: 'https://www.zoho.com/salesiq/help/visitorhistory-leadscoring.html?source=product',
+   chat_widget_help:'https://www.zoho.com/salesiq/help/getting-started-with-live-chat.html#chat-widgets',
+   visitor_history_module:'https://www.zoho.com/salesiq/help/visitor-history-module.html',
+   schedules_help : 'https://www.zoho.com/salesiq/help/visitorhistory-email-scheduler.html#emailschedule',
+   useradd_help : 'https://www.zoho.com/salesiq/help/settings-users.html#agents?source=product   ',
+   userlist_help : 'https://www.zoho.com/salesiq/help/settings-users.html?source=product  ',
+   integ_crm_help : 'https://www.zoho.com/salesiq/help/integration-with-zoho-crm.html?source=product ',
+   integ_zsupport_help : 'https://www.zoho.com/salesiq/help/support-integration.html?source=product',
+   integ_zendesk_help : 'https://www.zoho.com/salesiq/help/integrations/live-chat-plugin-for-zendesk.html?source=product',
+   integ_emailgenie_help : 'https://www.zoho.com/salesiq/help/integrations/zoho-salesiq-integrations-email-genie.html?source=product',
+   integ_mailchimp_help : 'https://www.zoho.com/salesiq/help/integrations/email-marketing-salesiq-integration-for-mailchimp.html?source=product',
+   integ_campaigns_help : 'https://www.zoho.com/salesiq/help/integrations/email-marketing-salesiq-integration-for-zoho-campaigns.html?source=product',
+   integ_salesforce_help : 'https://www.zoho.com/salesiq/help/integration-with-salesforce.html?source=product',
+   integ_clearbit_help	:	'https://www.zoho.com/salesiq/help/integration-with-clearbit.html?source=product',
+   zoho_link : 'https://www.zoho.com',
+   integ_campaign_help : 'https://www.zoho.com/salesiq/help/integrations/email-marketing-salesiq-integration-for-zoho-campaigns.html',
+   marketplace_link:'https://crm.zohomarketplace.com',
+   gmail_tfalink: 'https://support.google.com/accounts/answer/1085463?hl=en&ref_topic=1099588',
+   zohomail_tfalink: 'https://www.zoho.com/accounts/help/tfa-thingstoknow.html#Application%20Specific%20Password',
+   outlook_tfalink: 'https://support.microsoft.com/en-in/help/12409/microsoft-account-app-passwords-two-step-verification',
+   office365_tfalink: 'https://docs.microsoft.com/en-us/azure/multi-factor-authentication/end-user/multi-factor-authentication-end-user-app-passwords',
+   yahoomail_tfalink: 'https://help.yahoo.com/kb/SLN15241.html',
+   mailchimp_dmarclink: 'http://kb.mailchimp.com/accounts/email-authentication/about-dmarc',
+   conversation_jsapilink: 'https://www.zoho.com/salesiq/help/jsapi-developer-section/jsapi.html#visitor-id',
+   visitorinfo_jsapilink:'https://www.zoho.com/salesiq/help/jsapi-developer-section/jsapi.html#visitor-info',
+   sundown_exportdatalink:'https://chloe.sundown.ai/chloe/?redirect=https://chloe.sundown.ai/chloe/faces/tenancy/zohosalesiq-oauth.xhtml',
+   sundown_traininglink:'https://sundown.ai/how-Chloe-works',
+   iphone_download_link:'https://itunes.apple.com/in/app/livechat-software-zoho-salesiq/id1094699978?mt=8 ',
+   ipad_download_link:'https://itunes.apple.com/in/app/livechat-software-zoho-salesiq/id1094699978?mt=8 ',
+   itv_download_link:'https://itunes.apple.com/in/app/livechat-software-zoho-salesiq/id1094699978?mt=8 ',
+   androind_mobile_download_link:'https://play.google.com/store/apps/details?id=com.zoho.salesiq ',
+   android_tablet_download_link:'https://play.google.com/store/apps/details?id=com.zoho.salesiq ',
+   android_tv_download_link:'https://play.google.com/store/apps/details?id=com.zoho.salesiq ',
+   ext_chrome_download_link:'https://chrome.google.com/webstore/detail/zoho-salesiqs-email-genie/ndfmepjhgchldlkigplglbokphllfpmh',
+   ext_firefox_download_link:'https://addons.mozilla.org/en-US/firefox/addon/zoho-salesiq-s-email-genie/?src=ss ',
+   dc_mac_download_link:'https://www.zoho.com/salesiq/downloads/plugins/zohosalesiq-mac-app.dmg',
+   dc_windows_download_link:'https://www.zoho.com/salesiq/downloads/plugins/zoho_salesiqsetup.exe',
+   dc_ubuntu_download_link:'https://www.zoho.com/salesiq/downloads/plugins/ZohoSalesiq_1.0.0_amd64.deb',
+   sdk_ios_help:'https://www.zoho.com/salesiq/ios-mobile-sdk-configuration.html',
+   sdk_ios_pushnotification_enable_help:'https://www.zoho.com/salesiq/help/developer-section/ios-sdk-push-enable.html',
+   sdk_android_help:'https://www.zoho.com/salesiq/android-mobile-sdk.html',
+   integ_sundown_help:'https://www.zoho.com/salesiq/help/integration-with-sundown.html',
+   dynamic_message_help : 'https://www.zoho.com/salesiq/help/dynamic-text.html?source=product#dynamictextlist',
+   ios_installation_help : 'https://www.zoho.com/salesiq/help/developer-section/ios-mobile-sdk-installation.html',
+   android_installation_help : 'https://www.zoho.com/salesiq/help/developer-section/android-mobile-sdk-installation.html',
+   bot_dialogflow_trigger_help : 'https://www.zoho.com/salesiq/help/developer-section/bot-dialogflow-authentication.html#trigger',
+   bot_ziaplatform_trigger_help : 'https://www.zoho.com/salesiq/help/developer-section/zia-integration-authentication.html#trigger',
+   bot_watson_trigger_help : 'https://www.zoho.com/salesiq/help/developer-section/watson-integration-authentication.html#trigger',
+   bot_msbotframework_trigger_help : 'https://www.zoho.com/salesiq/help/developer-section/watson-integration-authentication.html#trigger',
+   bot_dialogflow_predefined_help : 'https://www.zoho.com/salesiq/help/developer-section/bot-dialogflow-authentication.html#predefined',
+   bot_ziaplatform_predefined_help : 'https://www.zoho.com/salesiq/help/developer-section/zia-integration-authentication.html#predefined',
+   bot_watson_predefined_help : 'https://www.zoho.com/salesiq/help/developer-section/watson-integration-authentication.html#predefined',
+   bot_msbotframework_predefined_help : 'https://www.zoho.com/salesiq/help/developer-section/watson-integration-authentication.html#predefined',
+   
+   triggerrules : 'https://www.zoho.com/salesiq/help/automation-intelligent-triggers.html?source=product',
+   routingrules : 'https://www.zoho.com/salesiq/help/automation-visitor-routing.html?source=product ',
+   chatroutingrules : 'https://www.zoho.com/salesiq/help/automation-chat-routing.html?source=product',
+   callroutingrules : 'https://www.zoho.com/salesiq/help/automation-chat-routing.html?source=product',
+   chatmonitor : 'https://www.zoho.com/salesiq/help/automation-chat-monitor.html?source=product',
+   
+   signaturechat : 'https://www.zoho.com/salesiq/help/signature-chat.html',
+   jsapi: 'https://www.zoho.com/salesiq/help/developer-section/js-api.html',
+   iospushnotify: 'https://www.zoho.com/salesiq/help/developer-section/ios-sdk-push-notifications.html',
+   androidpushnotify: 'https://www.zoho.com/salesiq/help/developer-section/android-mobile-push-notification.html',
+   customcss: 'https://www.zoho.com/salesiq/help/customcss/overview.html',
+   help: 'https://www.zoho.com/salesiq/help',
+   androidvideolink: 'https://www.youtube.com/embed/lP4hNS0sHBQ',
+   iosvideolink: 'https://www.youtube.com/embed/YAKiXli3Q7M',
+   telegramvideolink: 'https://www.youtube.com/embed/lP4hNS0sHBQ',
+   androidnotifylink: 'https://www.youtube.com/embed/Y0RdGOwuO4c',
+   iosnotifylink: 'https://www.youtube.com/embed/DRK0E_JWbd8'
+};
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="SHORTCUT ICON" id="favicon" type="image/x-icon" href="/images/salesiq/favicon.ico"> 
+ <script>
+       var _TZCOFFSET = ((new Date()).getTimezoneOffset())*-1;
+       var _TZOFFSET = null;
+         
+       
+             _TZOFFSET = -480; //NO OUTPUTENCODING 
+       
+             
+	 _TZOFFSET = (_TZOFFSET==null) ? (_TZCOFFSET) : _TZOFFSET;
+	 var _TOOLTIP = "https://www.zoho.com/salesiq/help/dynamic-text.html?source=product#dynamictextlist"; // NO OUTPUTENCODING
+     var _TZSOFFSET = -480; //NO OUTPUTENCODING
+     var _TZPOFFSET = -480; //NO OUTPUTENCODING
+     var _SERVERNAME="salesiq.zoho.com"; //NO OUTPUTENCODING
+	 var CLIENTVERSION="NOV_29_2019_3"; //NO OUTPUTENCODING
+	 var INIT=false;
+	 var uapache=true;
+	 var ucomp=true;
+	 var _VIDEOVERSION = "v1_18"; //NO OUTPUTENCODING
+	 var _MEDIASERVERURL = (uapache) ? "https://media.zohostatic.com/salesiq/NOV_29_2019_3_https": "";//NO OUTPUTENCODING
+	 var _SUPPORTURL = "desk.zoho.com";//NO OUTPUTENCODING
+	 var _CRMPLUSURL = "crmplus.zoho.com";//NO OUTPUTENCODING
+	 var _WMSJSSTATICDOMAIN = "js.zohostatic.com";//NO OUTPUTENCODING
+	 var _SIQHELPLINK = "https://www.zoho.com/salesiq/help";//NO OUTPUTENCODING
+	 var _IMG_STATIC_URL = "https://img.zohostatic.com/salesiq/NOV_29_2019_3_https";//NO OUTPUTENCODING
+	 
+	 
+	 		_MEDIASERVERURL = (uapache) ? "https://media.zohostatic.com/salesiq/MEDIA_14": "";//NO OUTPUTENCODING		
+	 		var _EMBEDJSAPIHEAD = "salesiq"; 
+	 		var _EMBEDSERVERURL = "salesiq.zoho.com";//NO OUTPUTENCODING
+	 		var _AVAILABLETOUR = "1";
+	 		var _DRESERVERURL = "https://dre.zoho.com";
+	 		var _ZESTAICVERSION = "28.3";//NO OUTPUTENCODING
+			var _CSSSTATICURL = "css.zohostatic.com";
+	 		var _JSSTATICURL = "js.zohostatic.com";
+	 		var _ISSSTAUTH = false;//NO OUTPUTENCODING
+	 		var _IS_ZSUPPORT_PORTALCONFIGENABLED = true;//NO OUTPUTENCODING
+	 		var _IS_SUBSCRIPTION_ALLOWED = true;//NO OUTPUTENCODING
+	 		var _IMAPDOMAIN = "salesiq.zoho.com"; //NO OUTPUTENCODING
+	 		var _PRODUCT_DOMAIN = ""; //NO OUTPUTENCODING
+			var _ZOHO_DOMAIN = "www.zoho.com"; //NO OUTPUTENCODING
+			var _MAILCHIMP_CLIENTID ="442152710631"; //NO OUTPUTENCODING	 
+			var _ZENDESK_CLIENTID ="zoho_salesiq"; //NO OUTPUTENCODING
+			var _SALESFORCE_CLIENTID ="3MVG9YDQS5WtC11pYC4wcJRrb_IyK2Z.4FZ0ny9ACUaR_Olvur2dTDVm_JGPRuiWnDO8w1i5TcCorO55YFLYu"; //NO OUTPUTENCODING
+			var _ZIAPLATFORM_DOMAIN ="https://zia.zoho.com";
+			var _IS_ALLOW_NEMBED = true;
+			var _IS_ALLOW_CANNEDMESSAGE = false;
+			var _SERVICEID = 2201;
+			var _DESKSERVICEID = 4501;
+                        var _GADGETSSERVERURL = "https://gadgets.zoho.com";
+                        var _IS_CLOUDPICKER_ENABLED = true;
+            var _ZMAPCSSURL = "https://salesiq.zoho.com/styles/thirdparty/mapboxgl/mapbox-gl.css";
+            var _ZMAPSTATICURL = "https://maps.zoho.com/";
+            var _ZMAPAPIURL = "https://salesiq.zoho.com/js/thirdparty/mapboxgl/mapbox-gl.js";
+            var _ZMAPAPIKEY = "73f269cc3db5c26abb9a6b58b33e7452";
+            var _DATACENTER = "US";
+            var _SESONAL_THEME_EXPIRY = "1577903400000";//NO OUTPUTENCODING
+            var _ZENDESKSYNCENABLED = false;
+            var _ARTICLESYNCENABLED = false;//NO OUTPUTENCODING
+            var _WEBPUSHENABLED = false;//NO OUTPUTENCODING
+			
+ </script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Anand and Pranesh's Live Chat Sofware</title>
+
+
+	<script src="https://js.zohostatic.com/salesiq/NOV_29_2019_3_https/js/adminsound.js"></script>
+
+<script type="text/javascript">
+	var soundsobj = {"vchat-msg":"3","vwait-warning":"1","vchat-transfer":"6","agtchat-msg":"1","chatforward":"6","blockip":"7","vleft":"7","trackin":"6","grp-chat-inv":"2","mbchat-msg":"5","trackout":"8","vchat-end":"4","vassigned":"2","vwait":"2"};//NO OUTPUTENCODING 
+	Sound.changeToWebAudio(false);
+  	Sound.init(soundsobj);
+</script>
+
+<script type="text/javascript">
+	var op = (((navigator.userAgent).indexOf("Opera")!=-1));
+	var ie = !op && /msie/i.test(navigator.userAgent);
+	var mz = !op && !ie && /mozilla\/5/i.test(navigator.userAgent);
+	function ZVEmbedChatCallback(){} //For audio video
+	_GLOBAL = {};
+	_IAMONEZOHO_SUBSCRIPTION_LINK= "";
+	_IAMONEZOHO_ADDUSER_LINK= "";
+	_CURRENCY = {};
+    	_ISCRMPLUSIFRAME = false;
+    	_IAM_SHOW_INVITEUSER = true;
+	
+	_IAM_SHOW_INVITEUSER = true;//NO OUTPUTENCODING
+	_ISZOHOONEPORTAL = false;//NO OUTPUTENCODING
+	_ISCRMPLUSPORTAL = false;//NO OUTPUTENCODING
+	var cmp_link = "https://www.zoho.com/salesiq/help/integrations";
+</script>
+	<script src="https://js.zohostatic.com/ichat/Jun_25_2019_3_https/js/wmsliteapi.js"></script> 
+	<script src="//salesiq.zoho.com/js/build/lang/resource.js"></script>
+		<!--[if IE]>
+			<link href="https://css.zohostatic.com/salesiq/NOV_29_2019_3_https/styles/baseie.css" rel="stylesheet" type="text/css" />
+			<link href="https://css.zohostatic.com/salesiq/NOV_29_2019_3_https/styles/globalie.css" rel="stylesheet" type="text/css" />
+			<![endif]-->
+	
+		
+
+		<!--[if IE]>
+		<link href="https://css.zohostatic.com/salesiq/NOV_29_2019_3_https/styles/adminie.css" rel="stylesheet" type="text/css" />
+		<![endif]-->
+
+		<![if !IE]>
+		<link href="https://css.zohostatic.com/salesiq/NOV_29_2019_3_https/styles/supportadmin.css" rel="stylesheet" type="text/css" />
+		<![endif]>
+
+
+		
+		<script src="https://js.zohostatic.com/salesiq/NOV_29_2019_3_https/js/supportadmin.js"></script>
+		<script src="https://js.zohostatic.com/salesiq/NOV_29_2019_3_https/js/siqwidgets.js"></script>
+                <script src="https://js.zohostatic.com/salesiq/NOV_29_2019_3_https/js/resource/resource.js"></script>
+                
+             	<script src="https://js.zohostatic.com/salesiq/NOV_29_2019_3_https/js/desktopclient.js"></script>
+
+        <script type="text/javascript">
+      		var userpref = {"themes":{"curve":"false","fixedLayout":"true","pattern":"2","theme":"0"},"salesiqchatbar":{"status":"0"},"usage":{"pathview":"all","soundplayer":"1","vhbtimerange":"0"},"viewcolumns":{"indexes":[{"-1":"All Visitors"},{"-2":"Repeated Visitors"},{}]},"tour":{"viewed":""},"announcement":{"viewed":""}};//NO OUTPUTENCODING                   
+             	UserPref.init(userpref);
+ 	</script>
+        
+
+</head>
+<body class=" theme0 fluid sharp">
+<div id="popupdiv"></div>
+<div id="maincontainer" >
+	    <script type="text/javascript">	
+			if(typeof CrmPlusImpl !== "undefined")
+            {
+			   var uiJson = CRMPlusHandler.generateInitializeJSON();	
+			   CrmPlusImpl.trigger("initialize",["","-1",uiJson]);	 //NO I18N
+            }
+		</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="headercls" id="headercls" >
+  <div id="ajaxstatus" class="loading-prg" style="display:none;">
+      <div class="loading-prgsub"><div class="loading-prginsub">
+              <div class="loadingcntmn" id="ldngtxt">  </div>
+        </div>
+        </div>
+  </div>
+  <div id="notimsgbase" class="message-base" style="display:none"> <span class="s-message">  <a class="mclose" title="Close" href="javascript:;">X</a> </span> </div> 
+  <div class="hdrprt" id="productheader">
+    <div class="layout-width flex flexDRR">
+    <div class="header_sub flex">
+    <div class="flex flexDRR alignIC" id="header_rightnav">
+      <div class="hdrlink aln_self_cnter"> 
+        <span class="set"></span>
+        <!--Dropdown-->
+        <div class="hdrusrlst" id="hdrdrpdwntop" onclick="PortalUI.showHeadMenu(event)" >
+        <div>
+			<span class="prelative dib-mid "><span id="usrphoto" class="hdrusr-img"> 
+                            <img alt="userimage" id="header518342000000002001" title="" class="usrphoto bgimgnone" src="https://salesiq.zoho.com/anandwebsite/userimg/0_518342000000002001/photo.ls?nocache=1" /> 
+              
+			</span> 
+			</span>
+			<span id="hdrdname" class="hdr-usrname">Anand</span>
+			<span class="hdr-arrow"> <em alt="arrowicon" title="" align="absmiddle" class="sqico-arrow"></em> </span> 
+            </div>
+        </div>
+      </div>
+      
+      	<div class="hdrcmpt flex">
+      		<div id="ustatus"></div>
+      			<div class="flex">
+                    <label class="switch-trck">
+                        <input class="switch-chck hide" type="checkbox" checked="" onclick="PortalUI.userStatus.saveStatus(this);">
+                        <em class="switch-bg" id="switch-bg"></em>
+                        <span class="switch-crcl"></span>
+                    </label>
+                </div>
+        </div>
+      
+      
+
+    <div id="upgradeinfo" class="upgr_alt mrgnlft30" style="display:none;">
+ 	<div class="upgrad_link" id="upgradenk"><a href="javascript:void(0)" onclick="License.loadPaymentUI()" onmouseover="PortalUI.supInfo();" onmouseout="PortalUI.hupInfo();">Upgrade</a></div>
+ 		<div class="lvhdr_tralicomn">
+ 			<div class="lvhdr_trialmn" id="upg_prog" style="display:none">
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+      </div>
+      <!--Search box-->
+      <div class="sercmn">
+       <div id="searchcont">
+      	<em class="mnsrc-ico sqico-search" id="srchdlt"onclick="SearchUI.showFilters(event)"></em>
+       	
+  		<input id="searchinput" name="" type="text" size="40" placeholder="Search..."  onkeyup="SearchUI.handleKeys(event,this.value)" onkeydown="SearchUI.clearSuggestTimer()" onblur="setTimeout(function(){SearchUI.hideSuggest()},500)"/>
+      </div>
+      	    <div class="srcdfltdrpdwn srchtogbtn" style="display:none;" id="srchelpfil">
+       	     <ul>
+            	<li purpose="visitor" onclick="SearchUI.checkAndSelectFilter(this)" id="visitor" class="selimg"><span class="srcdimg"></span>Visitors</li>
+                <li purpose="user" onclick="SearchUI.checkAndSelectFilter(this)" id="user" class="selimg"><span class="srcdimg"></span>Operator Chats</li>
+                <li purpose="cannedmessage" onclick="SearchUI.checkAndSelectFilter(this)" id="cannedmessage" class="selimg"><span class="srcdimg"></span>Canned Message</li>
+                <li purpose="blockedip" onclick="SearchUI.checkAndSelectFilter(this)" id="blockedip" class="selimg"><span class="srcdimg"></span>Blocked IP</li>
+            </ul> 
+           </div>
+		   <div class="srcmn" style="display:none" id="srchhelp" cnt="-1"></div>
+	</div>
+	</div>
+    
+
+      <!--live support logo--> 
+      <div class="hdr-logo">
+      <a href="index" class="bgn"> 
+      	<img alt='live support Logo' class='alin_cntr' title='' src='https://salesiq.zoho.com/anandwebsite/clogo/0_701844962/photo.ls?iswbgclogo=true' id='portalimg' pid='701844962' ></img>
+      </a> 
+      </div></div> 
+	  
+  </div>
+  		<div id="headerdropdiv" class="headerdropdiv">
+
+			<ul class="hdrdrpdwn" id="hdrdrpdwn" >
+				<li><a  href="https://accounts.zoho.com" target="_blank">My  Account</a></li>
+				<li id="soundplayer"><a href="javascript:void(0)" onclick="PortalUI.showThemesForm(event);return false;">Personalize Sounds<em onclick="PortalUI.toggleSoundIcon(this, event)"></em></a></li> 
+	           	<li><a href="javascript:void(0)" onclick="PortalUI.supportChat();return false;">Ask for Help</a></li>
+				<li><a href="javascript:void(0)" onclick="ShortcutUtil.showHelp(event);return false;">Keyboard Shortcuts</a></li> 
+	            <li><a href="/portal.do">My Portals</a></li>
+	            
+	                <li><a href="javascript:void(0)" onclick="PortalUI.showDownloadApp(event);return false;">Mobile & Desktop Apps</a></li>
+	            
+	            <li style="display:none">
+	            	<a href="javascript:void(0)">Chat Bar
+		            	<div id="chatbar_toggle" class="togglebtn" onclick="PortalUI.toggleChatBarStatus(this, event)">
+		            		<em class="gspritebg"></em>
+		            		<div class="slidebtn"></div>
+		            	</div>
+	            	</a>
+	            </li>
+	         	<li class="bdrnone"><a href="logout.sas">  Sign Out</a></li>
+	         </ul>
+         </div>
+  <nav>
+    <div class="mnavibg" style="z-index:10000; position:fixed"></div>
+  </nav>
+</header>
+
+    <div class="cmembers" id="portalusers"   >
+		<div id="cmembers" style="display:none" >
+			<h4>My Colleagues<a id="seeall" class="floatrg" style="font-size:12px;font-weight:normal;color:#666;text-decoration:none;margin-right:6px" href="javascript:;" onclick="PortalUI.showSupportRep();"> See All<em class="up-arow"></em></a></h4>
+			<div id="smemlist" class="mem-list">
+				<ul></ul>
+			</div>
+		</div>
+		<!--div id="divmsgboard" class="clrLft marginfour floatlf" style="display:none" ><img class="floatlf" src="https://img.zohostatic.com/salesiq/NOV_29_2019_3_https/images/message-board.gif"><a class="floatlf fonteleven grayee" style="margin-left:4px" href="javascript:;" onclick="PortalUI.toggleMessageBoard();" >Message board</a></div-->
+	</div>
+	<div class="submain-body" >
+    
+		<div id="menu_portal" class="content_rhtprt flex flexDC">
+				<div class="lwaiting" id="lwaiting" style="display: none">
+					<div class="lswaithdr bdrbxsize">
+						<span class="lswaittxt subnavtitle" id="head"></span>
+					</div>
+					<div id="wait-wrap"></div>
+				</div>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sub-nav" id="leftnav" >
+          <div class="subnavtitle"><span id="nfywaiting" style="display: none;" class="notify"></span></div>            
+          <ul id="supportmenulist" class="sub_nav vist_tab">
+          			 
+		  						<li id="suppm_tracking" class="sales vist_subtab" ><a  href="#portal/tracking" class="">Visitors Online<span class="grayish"></span></a></li>
+		  			
+                    <li id="suppm_mycurrent" class="mycurrent vist_subtab" style="display:none" ><a href="#portal/mycurrent" class="">My Chats<span class="grayish"></span></a></li>
+                    <li id="suppm_current" class="current vist_subtab" style="display:none" ><a href="#portal/current" class="">Connected<span class="grayish"></span></a></li>
+                    
+            			<li id="suppm_visits" class="visit_list vist_subtab"><a  href="#portal/visits" class="">Visitor History<span class="grayish"></span></a></li>
+            					
+           			
+                    		<li id="suppm_missed" class="missed vist_subtab" style="display:none" ><a  href="#portal/missed" class="">Missed<span class="grayish"></span></a></li>
+                    		<li id="suppm_history" class="history vist_subtab"><a href="#portal/history" class="">Chat History</a></li>
+                    		<li id="suppm_feedback" class="history vist_subtab"><a href="#portal/feedback" class="">Feedback</a></li>
+                    
+          </ul>
+
+          <ul id="adminmenulist" class="sub_nav sbt mrgnlft0">
+	  
+			  	<li id="menu_report" >
+				  	<a href="#report/overview">
+				  	<span>Reports</span>
+				 	</a>
+			  	</li>
+		      
+
+         
+
+								<li id="menu_user" style="display:block;" >
+                              				<a href="#user/myprofile" >
+                                        			<span>My Profile</span>
+                              				</a>
+                    			</li>
+                    					
+                                        <li id="menu_setting">
+                                        <a href="#setting/user" ><span> Settings</span>  </a>
+                                        </li>
+                                
+						<li id="menu_purchase" >
+									
+            							<a href="javascript:void(0)" onclick="License.loadPaymentUI()">
+            						
+                						<span>Purchase</span>
+            						</a>
+            					</li>
+              			      
+            <li id="menu_search" style="display:none">
+            <a href="#search" >
+                <span>Search</span>
+            </a>
+            </li>
+        </ul>
+
+</div> 
+<div class="flexG lhsgrad"><span class="lhsbg1"></span><span class="lhsbg2"></span><span class="lhsbg3"></span><img class="lhsdots" src="/images/lhs_dots.svg"/></div>
+
+		</div>
+		
+		<div class="lwaiting callwaiting" id="callwaiting" style="display: none">
+               	<div class="lswaithdr bdrbxsize"> 
+                   	<span class="lswaittxt subnavtitle" id="head"></span>
+                   </div>
+                   <div id="wait-wrap">
+                   
+               	</div>
+              	</div>
+		<div class="content_lftprt" conf="sec" id="sec_gen" isfetch="true"  style="display:none">
+			<div id="roundedrect2" class="roundedrect2">
+			 </div>
+			<div class="roundedrect" style="z-index:-1">
+            	<div class="btmcurve-img"></div>
+				<div class="inner_cnt" id="rightcontainer"></div>
+			</div>
+		</div>
+		<div class="content_lftprt" conf="sec" id="sec_portal" style="display:none" isfetch="true" subtab="" >
+			<div id="roundedrect2" class="roundedrect2">
+			</div>
+			<div class="roundedrect">
+            			<div class="btmcurve-img"></div>
+				<div class="inner_cnt" id="leftcontainer" >
+					<div id="missed_div" style="display:none" class="align_topsubbar" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>Support</h1>
+						</div>
+						<div id="innerbody">
+							<div class="subinner" id="innerhdr">
+            					 	</div> 
+							<div id="missed_mcontent" class="mcontent padngalgn">
+								<div class="list-view tdhover">
+									<table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody></tbody></table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="current_div" style="display:none" class="align_topsubbar" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>Support</h1>
+						</div>
+						<div id="innerbody">
+						 <div class="subinner" id="innerhdr" >
+            					 </div> 
+						<div class="mcontent padngalgn" id="current_mcontent">
+							<div class="list-view tdhover" >
+								<table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody></tbody></table>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div id="userhistory_div" style="display:none" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>History</h1>	
+						</div>
+						<div id="innerbody">
+						 <div class="subinner" id="innerhdr" >
+							<div class="customer-actions mtop"><ul id="selsubtab" seltabid=""></ul></div>
+            					 </div> 
+						<div class="mcontent padngalgn" id="userhistorylist_mcontent" >
+							<div class="list-view tdhover" id="historylist" >
+								<table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody></tbody></table>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div id="visits_div" style="display:none" class="align_topsubbar" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>Visitor History</h1>	
+						</div>
+						<div id="innerbody">
+						 <div class="subinner" id="innerhdr" >
+							
+            					 </div> 
+						<div class="mcontent padngalgn" id="visit_mcontent">
+							
+						</div>
+						</div>
+					</div>
+					<div id="history_div" style="display:none" class="align_topsubbar" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>Support</h1>
+						</div>
+						<div id="innerbody">
+						 <div class="subinner" id="innerhdr" >
+							<div class="customer-actions mtop"><ul id="selsubtab" seltabid=""></ul></div>
+            					 </div> 
+						<div class="mcontent padngalgn" id="history_mcontent" >
+							<div class="list-view tdhover" id="historylist" >
+								<table cellspacing="0" cellpadding="0" border="0" width="100%"><tbody></tbody></table>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div id="mycurrent_div" style="display:none" class="mycurrent_div" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							 <div id="excesshead" style="display:none">
+							 	<div class="mltchat_arw" onclick="WindowHandler.toggleExcessHead(event);" id="excessheadcntcont">
+									<span class="mltichat_sts" id="excessheadcnt"></span>
+								</div>
+								<div class="combosubdrpdwnmn mltchat_lst excessheadlist" id="excessheadlist">
+								<ul>
+								</ul>
+								</div>
+							 </div>
+							 <div class="ctab">
+								<ul id="lschatheader"> </ul>
+							</div>
+						</div>
+						<div id="innerbody" >
+						</div>
+					</div>
+                                        <div id="feedback_div" style="display:none" class="align_topsubbar" conf="portal" >
+						<div id="innerheader" class="inner-header embedhdr">
+							<h1>Feedback</h1>
+						</div>
+						<div id="innerbody">
+						 <div class="subinner" id="innerhdr" >
+							<div class="customer-actions mtop"><ul id="selsubtab" seltabid=""></ul></div>
+            					 </div> 
+						<div class="mcontent padngalgn" id="feedback_mcontent" >
+							<div class="list-view tdhover" id="feedbacklist" >
+								<table cellspacing="0" cellpadding="0" border="0" width="100%"><colgroup><col width="2.9%"><col width="25%"><col width="44%"><col width="20%"></colgroup><tbody></tbody></table>
+							</div>
+						</div>
+						</div>
+					</div>
+
+				</div>
+				</div>
+			</div>
+			<div class="content_lftprt" conf="sec" id="visitor_monitor" style="display:none" isfetch="true" subtab="" ></div>
+                  <div class="longwait-hovrmn" id="wtgdtls" style="display: none" onmouseover="WaitingHandler.clearCloseTimer();" onmouseout="WaitingHandler.hideDetails()">        
+        <div class="longwait-hovrsub">
+        <em class="longwait-arw"></em> 
+        <div class="longwait-hovrinrmn">
+                    <em class="longwt-flg in_flag" class="longwait-depico" id="ccode"></em>
+                    <div class="longwaithvrmn">
+                        <div class="longwait-qustn" id="ques"></div>
+              <div class="longwait-embdepmn txtelips">
+                <div class="longwait-embd"><em class="longwait-depico" title="Department"></em><span class="longwait-deptxt" id="dept"></span></div>
+                <div class="longwait-dep" ><em class="longwait-embico" title="Embed"></em><span class="longwait-embtxt" id="embed"></span></div>
+            </div>
+            <div class="longwait-url" id="currpage" title="Current Page"></div>
+            <div class="longwait-url lattender" id="lattender"></div>
+        </div>
+                <div class="longwait-pickup"><div class="floatlf avgrating" id="avgrating"></div><div class="floatrg pickupbtn"><span class="pk-grenbtn floatrg" id="wpckup">Pick Up</span></div></div>
+        </div>
+    </div>
+    </div>
+	</div>
+
+<div id="waitinglist" class="longwait-hovrmn custinfo"></div>
+<div class="vwindow" id="zvideocontainer" style="display:none">
+    <div class="vwindowhdr"><em class="video_hdr_ico sqico-minimize" id="video_tgl" onclick="avimpl.toggleDisplay()"></em></div>
+    <div class="video-dsply" id="zvideoblock" ></div>
+</div>
+
+<div class="audwindow" id="zaudiocontainer"  style="display:none">
+    <div class="awindowhdr"><em class="video_hdr_ico sqico-minimize"></em></div>
+    <div class="audio-dsply" id="zaudioblock" ><em class="aud-on"></em> </div>
+</div>
+
+
+
+<div class="mask" id="maskdiv" style="display:none" onclick="CommonUtil.closeDialog()"></div>
+
+<div id="reportsmap" style="display:none"></div>
+<div id="preimgldr"></div>
+    <div id="messagediv" style="display:none"></div>
+</div>
+<iframe allow="autoplay" id="audioInitIframe" style="display:none"></iframe>
+<script>
+window.onload=function()
+{
+	try
+	{	
+		_ISAPPSENABLED = true
+		_SUBINDEX = false
+		_ISEXTACTION = false;
+		_PROG = true;
+		try
+		{
+			WelcomePageUI.setEmbedNameAndKey("anandwebsite", "null" , "973c5c48bb85d0d1ec934275ec2be1b00337d9dec8dfe644ebb32300e1f0404f6970830d0bca98e608f2ec39ec1bc0e0"); 
+			DepartmentUI.init({"518342000000002013":["Anand Website","System Generated","518342000000002001","true","Public","SYSTEM","1575060658600","Anand","Anand Website","false",{"0":"false","1":"true","2":"true","3":"true","4_email":"","4":"true","0_email":"","5":"true","2_email":"","5_email":"","3_email":"","1_email":""},"1575060658600",{}]}); 
+			Dialog.init();
+			//MediaFrameWorkAPI.setAVChatServer("video.zoho.com"); 
+        		CommonUtil.setProductCode("LD"); 
+        		CommonUtil.betatesters=["zohocorp","chatsupport","zohochat","zillium","zillumincc","demodesk","testjabber","jabber1","chatteam","zohomadhu","testrakeshm","zohocares","betaenabled","siqbeta","testsalesia","salesiqtesting01","valli","aathimaniraj1","zylkerinc"]; 
+        		CommonUtil.allowedfeatures=["35","36","37","38","40","42"]; 
+        		CommonUtil.partnerportals=[]; 
+        		CommonUtil.isromode=false; 
+			CommonUtil.setOldEmbedCount(0);
+			LSMessanger.setSubDomain("zoho.com");  //No I18N
+			CurrentPortal.setAddInfo("",[{"objString":{},"module":"integaddinfo","objType":"object"}]);  
+			License.init({"trialdays" : "15","istrial" : "true","currplan" : "17","74" : "-1", "73" : "10", "72" : "3", "71" : "1", "68" : "1", "66" : "1", "63" : "-1", "62" : "1", "61" : "1", "58" : "1000", "57" : "1", "56" : "1", "55" : "1", "54" : "0", "53" : "1", "52" : "10", "51" : "1", "49" : "25", "48" : "1", "47" : "0", "46" : "1", "45" : "1", "44" : "1", "43" : "1", "42" : "1", "41" : "0", "40" : "1", "39" : "1", "38" : "1", "37" : "1", "36" : "1", "35" : "1", "34" : "1", "33" : "1", "32" : "1", "31" : "10", "30" : "1", "29" : "0", "28" : "1", "27" : "1", "26" : "1", "25" : "25", "24" : "25", "23" : "1", "22" : "25", "21" : "-1", "20" : "200000", "19" : "25", "18" : "1", "17" : "1", "16" : "1", "15" : "1", "14" : "1", "13" : "1", "12" : "1", "11" : "1", "10" : "2", "9" : "-1", "8" : "1", "7" : "1", "102" : "0", "6" : "1", "101" : "0", "5" : "1", "4" : "1", "3" : "0", "2" : "25", "1" : "-1"}, false,true); 
+			License.setPaymentURL('https://payments.zoho.com/html/store/index.html#subscription?serviceId=2201&customId=214d1d7dabe5477341ffa7157ebbfe23a34880ae5a75cc21d9c758ad27b63cc2'); 	
+			PortalUI.init();
+        		PasteImage.setIsUser(true);
+        		_LANG = "en"; 
+			CurrentUser.setLSUID("518342000000002001");
+        		CurrentUser.setZUID("701847742"); 
+        		CurrentUser.setWMSID("LD_701844962_518342000000002001"); 
+			CurrentUser.setRole("4");
+        	CurrentUser.setisOwner(true);
+			CurrentUser.setChatStatus(true);
+        	CurrentUser.setCipherMailid("124cd8ecf1217f9a054ced222327dd5b5e15a29e4a4abc9891e4f669d6cb512f");
+			
+        	PortalUI.setProductTitle("ZOHO SalesIQ") 
+			PortalUI.setShowWelcome("true");
+        		AgentDB.updateUsersList({"518342000000002001":{"created_time":"1575060658068","scode":"1","access":"3","rolename":"Administrator","emailid":"anand.imac.sri@gmail.com","chatstatus":"true","type":"1","confirmed":"1","modified_time":"1575060658068","deleted":"0","wmsid":"LD_701844962_518342000000002001","smsg":"Available","dname":"Anand","addinfo":{"image_fkey":"0_518342000000002001","userfb":"1"},"uniqueid":"701847742","status":"1"}},{});  
+        	
+        		Bot.initObjects({"EXECUTORS":"8","DELETE":"2","EDIT":"4","VIEW":"1"}, {"message_handler":"response = Map();\nmsg = message.get(\"text\");\nif(operation.equals(\"chat\"))\n{\n\tif(!msg.equalsIgnoreCase(\"I'm new here, just browsing\") && !msg.equalsIgnoreCase(\"I'm an existing customer and need help\") && !msg.equalsIgnoreCase(\"I want a product demo\"))\n\t{\n\t\tresponse = Map();\n\t\tresponse.put(\"action\",\"reply\");\n\t\tresponse.put(\"replies\",{\"Hello there! 👋 Looking for anything specific?\"});\n\t\tresponse.put(\"suggestions\",{\"I'm new here, just browsing\",\"I'm an existing customer and need help\",\"I want a product demo\"});\n\t\treturn response;\n\t}\n}\nif(msg.equalsIgnoreCase(\"I'm new here, just browsing\"))\n{\n\tresponse.put(\"action\",\"context\");\n\tresponse.put(\"context_id\",\"browsing\");\n\tquestion = {\"name\":\"browsing\",\"replies\":{\"Awesome. Let’s get you started right away. Here’s an on demand [product demo](https://www.zoho.com/social/webinars/social-media-marketing.html) that you can watch at your own pace.\"},\"suggestions\":{\"Thanks\"}};\n\tresponse.put(\"questions\",{question});\n}\nelse if(msg.equalsIgnoreCase(\"I'm an existing customer and need help\"))\n{\n\tresponse.put(\"action\",\"context\");\n\tresponse.put(\"context_id\",\"help\");\n\tquestion = {\"name\":\"help\",\"replies\":{\"Welcome back! What do you need help with?\"},\"suggestions\":{\"Questions about the product\",\"Sales Enquiry\",\"Can't find what I'm looking for\"}};\n\tresponse.put(\"questions\",{question});\n}\nelse if(msg.equalsIgnoreCase(\"I want a product demo\"))\n{\n\tresponse.put(\"action\",\"context\");\n\tresponse.put(\"context_id\",\"demo\");\n\tquestion = {\"name\":\"time\",\"replies\":{\"Great! Let’s set up a personalized demo to help you manage social media for all your clients. When would you like to schedule it?\"},\"input\":{\"type\":\"calendar\"}};\n\tresponse.put(\"questions\",{question});\n}\nelse\n{\n\tresponse = Map();\n\tresponse.put(\"action\",\"reply\");\n\tresponse.put(\"replies\",{\"Is there anything else I can help you with?\"});\n\tresponse.put(\"suggestions\",{\"I'm new here, just browsing\",\"I'm an existing customer and need help\",\"I want a product demo\"});\n\treturn response;\n}\nreturn response;","trigger_handler":"response = Map();\nresponse.put(\"action\",\"reply\");\nresponse.put(\"replies\",{\"Hello there! 👋 Looking for anything specific?\"});\nresponse.put(\"suggestions\",{\"I'm new here, just browsing\",\"I'm an existing customer and need help\",\"I want a product demo\"});\nreturn response;","context_handler":"response = Map();\nresponse.put(\"action\",\"context\");\nresponse.put(\"context_id\",context_id);\nif(context_id.equals(\"browsing\"))\n{\n\tbrowsing = answers.get(\"browsing\").get(\"text\");\n\tif(browsing.equalsIgnoreCase(\"Thanks\"))\n\t{\n\t\tresponse.put(\"action\",\"end\");\n\t\tresponse.put(\"replies\",{\"Have a great day\"});\n\t}\n\telse\n\t{\n\t\tresponse.put(\"action\",\"reply\");\n\t\tresponse.put(\"replies\",{\"What else can I help you with?\"});\n\t\tresponse.put(\"suggestions\",{\"I'm new here, just browsing\",\"I'm an existing customer and need help\",\"I want a product demo\"});\n\t}\n}\nelse if(context_id.equals(\"help\"))\n{\n\thelp = answers.get(\"help\").get(\"text\");\n\tif(help.equalsIgnoreCase(\"Questions about the product\"))\n\t{\n\t\tif(!answers.containsKey(\"elsepart\"))\n\t\t{\n\t\t\tquestion = {\"name\":\"elsepart\",\"replies\":{\"Sure! You might want to check out the [Resources page](https://www.zoho.com/social/help/) . It has a product guide, answers to frequently asked questions, and more.\",\"Is there any thing else that I can assist you with?\"},\"input\":{\"type\":\"select\",\"options\":{\"Yes, I need help\",\"No, Thank you\"}}};\n\t\t\tresponse.put(\"questions\",{question});\n\t\t}\n\t\telse\n\t\t{\n\t\t\telsepart = answers.get(\"elsepart\").get(\"text\");\n\t\t\tif(elsepart.equalsIgnoreCase(\"Yes, I need help\"))\n\t\t\t{\n\t\t\t\tif(!answers.containsKey(\"email\"))\n\t\t\t\t{\n\t\t\t\t\tquestion = {\"name\":\"email\",\"replies\":{{\"text\":\"Can I have your email address so that we can reach you in case the chat gets disconnected\",\"field_name\":\"siq_email\",\"validate\":{\"format\":\"email\",\"error\":{\"Enter a valid email\"}}}}};\n\t\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\temail = answers.get(\"email\").get(\"text\");\n\t\t\t\t\tif(!answers.containsKey(\"name\"))\n\t\t\t\t\t{\n\t\t\t\t\t\tquestion = {\"name\":\"name\",\"replies\":{{\"text\":\"Can I have your name please?\",\"field_name\":\"siq_name\"}}};\n\t\t\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t\t\t}\n\t\t\t\t\telse\n\t\t\t\t\t{\n\t\t\t\t\t\tname = answers.get(\"name\").get(\"text\");\n\t\t\t\t\t\tif(!answers.containsKey(\"phone\"))\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tquestion = {\"name\":\"phone\",\"replies\":{{\"text\":\"Can I have your phone number in case we need to reach out to you for further follow up\",\"validate\":{\"format\":\"phoneno\",\"error\":{\"Enter a valid phone number\"}},\"field_name\":\"siq_phone\"}}};\n\t\t\t\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t\t\t\t}\n\t\t\t\t\t\telse\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tphone = answers.get(\"phone\").get(\"text\");\n\t\t\t\t\t\t\tresponse.put(\"action\",\"forward\");\n\t\t\t\t\t\t\tresponse.put(\"replies\",{\"Please wait while I forward the chat to agents\"});\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t\telse if(elsepart.equalsIgnoreCase(\"No, Thank you\"))\n\t\t\t{\n\t\t\t\tif(!answers.containsKey(\"anythingelse\"))\n\t\t\t\t{\n\t\t\t\t\tquestion = {\"name\":\"anythingelse\",\"replies\":{\"Is there any thing else that I can assist you with?\"},\"input\":{\"type\":\"select\",\"options\":{\"Yes\",\"No\"}}};\n\t\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tanythingelse = answers.get(\"anythingelse\").get(\"text\");\n\t\t\t\t\tif(anythingelse.equalsIgnoreCase(\"Yes\"))\n\t\t\t\t\t{\n\t\t\t\t\t\tresponse.put(\"action\",\"reply\");\n\t\t\t\t\t\tresponse.put(\"replies\",{\"Hello there! 👋 Looking for anything specific?\"});\n\t\t\t\t\t\tresponse.put(\"suggestions\",{\"I'm new here, just browsing\",\"I'm an existing customer and need help\",\"I want a product demo\"});\n\t\t\t\t\t}\n\t\t\t\t\telse\n\t\t\t\t\t{\n\t\t\t\t\t\tresponse.put(\"action\",\"end\");\n\t\t\t\t\t\tresponse.put(\"replies\",{\"Bye\"});\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\telse if(help.equalsIgnoreCase(\"Sales Enquiry\"))\n\t{\n\t\tif(!answers.containsKey(\"email\"))\n\t\t{\n\t\t\tquestion = {\"name\":\"email\",\"replies\":{{\"text\":\"Can I have your email address so that we can reach you in case the chat gets disconnected\",\"field_name\":\"siq_email\",\"validate\":{\"format\":\"email\",\"error\":{\"Enter a valid email\"}}}}};\n\t\t\tresponse.put(\"questions\",{question});\n\t\t}\n\t\telse\n\t\t{\n\t\t\temail = answers.get(\"email\").get(\"text\");\n\t\t\tif(!answers.containsKey(\"name\"))\n\t\t\t{\n\t\t\t\tquestion = {\"name\":\"name\",\"replies\":{{\"text\":\"Can I have your name please?\",\"field_name\":\"siq_name\"}}};\n\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\tname = answers.get(\"name\").get(\"text\");\n\t\t\t\tif(!answers.containsKey(\"phone\"))\n\t\t\t\t{\n\t\t\t\t\tquestion = {\"name\":\"phone\",\"replies\":{{\"text\":\"Can I have your phone number in case we need to reach out to you for further follow up\",\"validate\":{\"format\":\"phoneno\",\"error\":{\"Enter a valid phone number\"}},\"field_name\":\"siq_phone\"}}};\n\t\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t\t}\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tphone = answers.get(\"phone\").get(\"text\");\n\t\t\t\t\tresponse.put(\"action\",\"forward\");\n\t\t\t\t\tresponse.put(\"replies\",{\"Please wait while I forward the chat to agents\"});\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\telse if(help.equalsIgnoreCase(\"Can't find what I'm looking for\"))\n\t{\n\t\tif(!answers.containsKey(\"email\"))\n\t\t{\n\t\t\tquestion = {\"name\":\"email\",\"replies\":{\"Uh-oh! Sorry about that.\",{\"text\":\"Do you have an email address where we can reach you?\",\"validate\":{\"format\":\"email\",\"error\":{\"Please enter a valid email\"}},\"field_name\":\"siq_email\"}}};\n\t\t\tresponse.put(\"questions\",{question});\n\t\t}\n\t\telse\n\t\t{\n\t\t\temail = answers.get(\"email\").get(\"text\");\n\t\t\tif(!answers.containsKey(\"name\"))\n\t\t\t{\n\t\t\t\tquestion = {\"name\":\"name\",\"replies\":{{\"text\":\"What's your name?\",\"field_name\":\"siq_name\"}}};\n\t\t\t\tresponse.put(\"questions\",{question});\n\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\t// handle failure\n\t\t\t\tname = answers.get(\"name\").get(\"text\");\n\t\t\t\tresponse.put(\"action\",\"forward\");\n\t\t\t\tresponse.put(\"replies\",{\"Please wait while I transfer your chat to the agents\"});\n\t\t\t}\n\t\t}\n\t}\n\telse\n\t{\n\t\tquestion = {\"name\":\"need\",\"replies\":{\"Welcome back! What do you need help with?\"},\"suggestions\":{\"Questions about the product\",\"Webinars\",\"Can't find what I'm looking for\"}};\n\t\tresponse.put(\"questions\",{question});\n\t}\n}\nelse if(context_id.equals(\"demo\"))\n{\n\ttime = answers.get(\"time\").get(\"text\");\n\tif(!answers.containsKey(\"email\"))\n\t{\n\t\tquestion = {\"name\":\"email\",\"replies\":{{\"text\":\"Do you have an email address where we can reach you?\",\"field_name\":\"siq_email\",\"validate\":{\"format\":\"email\",\"error\":{\"Enter a valid email\"}}}}};\n\t\tresponse.put(\"questions\",{question});\n\t}\n\telse\n\t{\n\t\temail = answers.get(\"email\").get(\"text\");\n\t\tresponse.put(\"action\",\"end\");\n\t\tresponse.put(\"replies\",{\"Thanks! One of our product specialists will reach out to you soon.\"});\n\t}\n}\nreturn response;","failure_handler":"response = Map();\n/*if(failed_response.get(\"action\").equalsIgnoreCase(\"forward\"))\n{\n\tcode = cause.get(\"code\").toNumber();\n\tif(code == 1001)\n\t{\n\t\t// Outside business hours\n\t\tresponse.put(\"action\",\"reply\");\n\t\tresponse.put(\"replies\",{\"It seems that this is off working hours for us\",\"Leave us a message and we will get back to you\"});\n\t}\n\telse if(code == 1002)\n\t{\n\t\t// operators_not_available\n\t\tresponse.put(\"action\",\"reply\");\n\t\tresponse.put(\"replies\",{\"All our agents are busy at the moment\",\"Leave us a message and we will get back to you\"});\n\t}\n\telse if(code == 1003)\n\t{\n\t\t// invalid_operators - Operators may be disabled or invalid\n\t\tresponse.put(\"action\",\"reply\");\n\t\tresponse.put(\"replies\",{\"All our agents are busy at the moment\",\"Leave us a message and we will get back to you\"});\n\t}\n}*/\nreturn response;"}, {"message_handler":"{map:message, map:visitor, string:operation, list:attachments, map:request}","trigger_handler":"{map:visitor, map:request}","context_handler":"{map:visitor, string:context_id, map:answers, list:attachments, map:request}","failure_handler":"{map:visitor, map:failed_response, map:cause, map:request}"});	 
+        	
+        	
+        	CannedMessageDB.updateMessageObj({}); 
+			CannedMessage.setMaxCount(1000);
+			CurrentPortal.updateProps([{"objString":{"skipwelcome":"false","siqscreensharing":"true","audiocall":"true","inactiveperiod":"30","isvisitorinfoapi":"false","gtprivacyconfig":"1","translate":"0","filetransfer":"true","sendtranasemail":"true","isvisitorsessionapi":"false","sendemailforipblockto":"true","trackingprivacystatement":"","trackingprivacyconfig":"0","visitorfeedback":"true","templatemailconfig":"0","soffbusymsg":"anand.imac.sri@gmail.com","offbusymsg":"true","sweeklystats":"anand.imac.sri@gmail.com","weeklystats":"true","trackportalcreation":"true","Code Embedded":"true","istrackdnt":"false","semailsignature":"0","sdailystatics":"anand.imac.sri@gmail.com","svisitorfeedback":"anand.imac.sri@gmail.com","idleasoffline":"false","isdowngradedtofreeplan":"false","chatcookiepolicyurl":"","onboard":{},"isvisitoreventapi":"false","maxconcurrentchat":"-1","chatprivacyconfig":"0","pushpage":"true","ssendtranasemail":"anand.imac.sri@gmail.com","frommailid":"anand.imac.sri@gmail.com","ssendemailforipblockto":"anand.imac.sri@gmail.com","sccemailaddr":"anand.imac.sri@gmail.com","chattranscript":"Manual","isgdprenabled":"false","isappsenabled":"true","screensharing":"true","inactivetrackingperiod":"180","gtpolicyurl":"","dailystatics":"true","emailtranscripts":"true","companylogoupdated":"false","ccemailaddr":"true","ispasswordprotected":"false","fromname":"","frommailconfig":"1","cookiepolicyurl":"","isipmasking":"false","verifyemail":"true","showtyping":"true","sys.mig":"v2"},"module":"pconfig","objType":"object"}]);  
+			CurrentPortal.setOwner("518342000000002001");
+			Company.setValues([{"objString":{"country":"","website":"","address":"","city":"","timezone":"America/Dawson","mobile":"","cfavicon_fkey":"","emailid":"","telephone":"15104567893","language":"","clogo_fkey":"0_701844962","street":"","name":"Anand Website","state":"","fax":"","desc":""},"module":"pcompany","objType":"object"}]); 
+			CurrentPortal.setPortalConfig('{"siqscreensharing":"true","audiocall":"true","isgdprenabled":"false","gtprivacyconfig":"1"}');
+			avaction.setNRSServers("stun:zvpturn1.zoho.com:443?transport=udp,stun:zvpturn2.zoho.com:443?transport=tcp,turn:zvpturn1.zoho.com:443?transport=udp,turn:zvpturn2.zoho.com:443?transport=tcp");
+			ClientHandler.checkAndInit();
+			ClientHandler.setVersion(CLIENTVERSION);
+			WaitingHandler.setWaitObj(document.getElementById("lwaiting"));
+			WindowHandler.setSupportContainer(document.getElementById("mycurrent_div"));
+			PortalUI.editorimgurl = "images/ze_toolbar_"; //No I18N
+        	DN.init();
+			Frame.init();
+			CommonUtil.verifyServerDiffTimer();
+			CommonUtil.initServerDiffTime();
+            		
+			    PortalUI.addSpotLightScript("api.zohospotlight.com","WPTeDG5y5lrN2yBW2UQMYA%3D%3D");		
+			  		                       	
+            ZCRMUI.init("crm.zoho.com"); 
+            ZCRMUI.updateConfig({}); 
+            SalesforceUI.init("null");
+            SalesforceUI.updateConfig({}); 
+			UserPref.alignFluidLayout();
+			IntegrationUI.init();
+			
+			
+			
+			if(CommonUtil.isromode)
+			{
+				CommonUtil.checkAndShowBanner(BANNER_RO,"index.romode.message"); //No I18N
+			}
+			$UI.addZoomImgHandlers();
+                        PortalUI.i18ncommonkeys={"visitorchatwithoutid":"visitor.chat.mailsubject.withoutid","visitorchat":"visitor.chat.mailsubject","visitornotes":"visitor.notes.mailsubject","trackingreport":"reports.tracking.mailsubject","userreport":"reports.user.mailsubject","performancereport":"reports.performance.mailsubject","visitorinfo":"visitor.info.mailsubject","overviewreport":"reports.overview.mailsubject","visitorsreport":"reports.visitors.mailsubject"};
+                        var gmapinfo = new Object();
+                        
+                              		gmapinfo.url = "https://maps.googleapis.com/maps/api/js?v"; 
+                        
+                                	gmapinfo.moreinfourl = "http://www.google.co.in/search?hl"; 
+                        
+                              GAPI.init(gmapinfo);
+			     			  Translate.init("https://gadgets.zoho.com"); 
+                              SDPOnDemandUI.init("sdpondemand.manageengine.com"); 
+                              
+                               Department.setAllDeptsList();
+                               setTimeout(function(){OnBoardUI.showOnboardAlert();}, 3000);
+//                                setTimeout(function(){
+//                             	   if(!(CurrentPortal.isManagedIntegrated()||License.isCRMPlusPlan()))
+//                             	   {
+//                             	   		PortalUI.supportChat();
+//                             	   }
+                            	   
+
+		}catch(e){}
+
+		PortalUI.setDivObject();
+		EmbedChats.init(false);
+		EmbedChats.updateEmbedData({"sigbehaviour":{"518342000000002043":[1,{"website":""}]},"embedobj":{"518342000000002043":{"WAITING_TIME":"60","DEPARTMENT_ID":"518342000000002013","LS_ID":"518342000000002043","FATIME":"1575060883044","issesonaltheme":0,"STATUS_MTIME":"1575060658743","DEPARTMENTS":["518342000000002013"],"RESTRICTED":0,"SIGNATURECHAT":true,"NAME":"Anand Website","WIDGETCODE":"973c5c48bb85d0d1ec934275ec2be1b00337d9dec8dfe644ebb32300e1f0404f6970830d0bca98e608f2ec39ec1bc0e0","STATUS":"true","GREETINGS":"","REFERER":"","TRACKING":"true","UNIQUENAME":"anandwebsite"}},"embedprops":{"518342000000002043":{"icmail":"true","shadow":"0","isscreenshare":"true","sbofflinebdr":"null","sboff2content":"null","flipicon":"false","offlinerespmsg":"","ishowemail":"true","previewfloatimagefilename":"","chooseshape":"1","floatmeasurement":"px","flttop":"0","buttontheme":"blue-btn","fltbubble":"false","off1content":"","on1content":"","icaudio":"true","iclogo":"true","on2content":"","ishowname":"true","radius":"0","sbonlinebdr":"","thanksmsg":"","selecticon":"7","sbonlinebg":"#0066cc","namemandatory":"false","icaddress":"true","busyrespmsg":"","swbgcolor":"","fltright":"0","offason":"true","icvideo":"true","icfeedback":"true","personalsupport":"false","aligntoright":"false","sbicobg":"","sboff1content":"null","phonemandatory":"false","fltposition":"bottomright","fltbottom":"0","sbon2content":"","busymsg":"","waitingmsg":"","sbofflinebg":"null","customcssfilename":"","engagedmsg":"","emailmandatory":"false","domaintxt":"http://","icrating":"true","embedtheme":"blue","swhbtcolor":"","embedheadertheme":"blue","swbocolor":"","lsid":"518342000000002043","icsound":"true","icformat":"true","icfile":"true","isconversation":"true","css_fkey":"0_518342000000002043","buttonsize":"large","isemail":"true","ishowphone":"false","icphoto":"false","float_fkey":"0_518342000000002043","offlinemsg":"","fltleft":"0","icprint":"true","swhbgcolor":"#0066cc","previewfilename":"","fltsize":"small","icsharedesk":"true","floatimagefilename":"","ibtngradient":"false","engagedrespmsg":"","icviewques":"true","sbon1content":""}}}); 
+		EmbedChats.setActivity({"518342000000002043":"1575060964181"});
+		$UI.initInfiniteScroll();
+		PortalUI.loadPhoto("user");		
+    	PortalUI.loadPhoto("portal"); //No I18N
+		SearchUI.init();
+		
+	    	VISITOROBJ = [ { "objString" : [ { "tname" : "LD_SupportHistory" , "rows" : [ [ "518342000000007003" , "1" , "" , "" , "" , "" , "" , "" , "" , "518342000000002001" , "" , "" , "" , "" , "" , "" , "" , "" , "0" , "" , "" , "" , "{\"1\":\"https:\/\/htmlone--26psaran.repl.co\/\",\"18\":1,\"10\":\"en-US,en;q=0.9\"}" , "" , "" , "" , "US" , "" , "" , "" , "" , "" , "72dac205-79ab-4f56-ba05-0377b873f651_a0" , "" , "" , "" , "" , "" , "" , "" , "" , "" , "" , "" , "" ] ] , "cols" : [ "CU_ID" , "VISIT_ID" , "NAME" , "EMAIL" , "PHONE" , "QUESTION" , "STATUS" , "ADDSTATUS" , "CHID" , "ATTENDER" , "OWNERID" , "INTIME" , "ENDTIME" , "PICKUPTIME" , "MISSEDTIME" , "IP" , "LS_ID" , "DEPARTMENT" , "NOTES" , "RTIME" , "CUSTOMERINFO" , "TITLE" , "ADDINFO" , "PARTICIPANTS" , "SUPERVISOR" , "FEEDBACK" , "CCODE" , "EXID" , "EXINFO" , "DELETED" , "CRMINFO" , "INTEG_TYPE" , "UUID" , "TYPE" , "LASTMSGINFO" , "AV_UID" , "CV_UID" , "MODE" , "CALLCOUNT" , "COMPONENTS" , "VM_ID" , "VISITOR_ID" , "THREADCOUNT" , "USER_AGENT" , "CHANNEL" ] } , { "tname" : "LD_LiveCustomerStatus" , "rows" : [ [ "518342000000007005" , "518342000000007003" , "$3403571971815753053" , "ds" , "anand.imac.sri@outlook.com" , "" , "sd" , "3" , "LD_2243226564832267133_1701844962" , "518342000000002001" , "518342000000002043" , "518342000000002013" , "71.198.160.111" , "1575060920746" , "1575060925565" , "" , "{\"1\":\"https:\/\/htmlone--26psaran.repl.co\/\",\"18\":1,\"10\":\"en-US,en;q=0.9\"}" , "{\"518342000000002001\":\"\"}" , "" , "US" , "" , "" , "" , "" , "0" , "4252755a-2702-4768-b7d4-2bd8af9c2409" , "{\"msg\":\"bruh\",\"mtype\":\"12\",\"sender\":\"LD_701844962_518342000000002001\",\"time\":\"1575060977656\",\"dname\":\"Anand\",\"id\":\"1575060977656%2011692881678\"}" , "0" , "0" , "" , "" ] ] , "cols" : [ "LCU_ID" , "CU_ID" , "VWMSID" , "NAME" , "EMAIL" , "PHONE" , "QUESTION" , "STATUS" , "CHID" , "ATTENDER" , "LS_ID" , "DEPARTMENT" , "IP" , "INTIME" , "PICKUPTIME" , "CUSTOMERINFO" , "ADDINFO" , "PARTICIPANTS" , "SUPERVISOR" , "CCODE" , "EXID" , "EXINFO" , "TRANSFER_PENDING" , "CRMINFO" , "INTEG_TYPE" , "UVID" , "LASTMSGINFO" , "CALLSTATUS" , "NOTES" , "RTIME" , "VISIT_ID" ] } ] , "module" : "allcurrentsupport" , "objType" : "do" } ]; 
+		Visitors.indexfetchtime = 1575061287533;
+		Visitors.updateObject(VISITOROBJ);
+		Layout.init();
+		PortalUI.isZohoCorpAccount = false;
+		PortalUI.issessiondebugportal = false;
+        LSMessanger.registerWms(CommonUtil.getProductCode(), "LD_701844962_518342000000002001", "Anand");  //No I18N
+        CommonUtil.setPlaceHolder();
+		ZE_Init.init();
+		DynamicMsg.init();
+		
+		Rules.init(); 
+		UTSHandler.initializeObject(false);
+		UTSHandler.updateFiltersData({}); 
+		
+		
+		RuleConfigUI.init();
+		
+		RuleConfigUI.setPresets({"predefinedid":"518342000000002069","commonrulestatus":"1","518342000000002067":"{\"100\":{\"view\":\"0\",\"listpriority\":\"0\",\"mtime\":\"1575060659814\"}}","commonid":"518342000000002067","518342000000002069":"{\"presetdescription\":\"\",\"presetname\":\"uts.tracking.config.tspent\",\"rule\":{\"1\":{\"type\":\"3\",\"value\":[[{\"criteria\":\"3\",\"type\":\"1\",\"fromvalue\":\"600\"}]]},\"2\":{\"type\":\"3\",\"value\":[[{\"criteria\":\"3\",\"type\":\"1\",\"fromvalue\":\"180\"}]]},\"3\":{\"type\":\"3\",\"value\":[[{\"criteria\":\"3\",\"type\":\"1\",\"fromvalue\":\"60\"}]]},\"4\":{\"type\":\"3\",\"value\":[[{\"criteria\":\"3\",\"type\":\"1\",\"fromvalue\":\"0\"}]]}},\"preset\":\"1\",\"mtime\":\"1575060659817\",\"type\":\"0\",\"lsuid\":\"518342000000002001\",\"status\":\"1\"}"}); 
+		RuleConfigUI.updateUTSPriorityPresetName();
+		
+		UTSHandler.init([]);
+		UTSHandler.updateFieldsType({"1":"Date","2":"Text","3":"Integer","4":"Email","5":"Website","6":"Phone","7":"Currency","8":"Double","9":"BigInt","10":"Options"});
+		UTSVisitor.getLiveUsers(true);
+		NURL.init();
+		PortalUI.handleRedeemUI();
+		 
+                       FeedbackChat.init("https://salesiq.zoho.com/zohocares?widgetcode=7d82592f9c2e06b99ef35969deb3b4ec67830535c724fbab8ef87c9df5a058d0c67c154270aafaa4e9fa23e5bcdf8895,https://salesiq.zoho.com/zohocares?widgetcode=7aa0180e0bbf15740d80f4d8e4b6d669ae81708e11744cf12a3c121ec71d8448,https://salesiq.zoho.com/zohocares?widgetcode=6112bd7bf89d73174c9bafa6811fdf95b64f6bf86c8f48ce33744a8dba00e04cd4f6a61f1b7d8b3fdd11130a436a38a5"); 
+                
+        			FeedbackChat.setWidgetappurl("https://widgets.zohosalesiq.com/app.js");
+        		
+			PortalUI.supInfo("load");
+			
+		ZCRMUI.fetchFields(false);
+		SalesforceUI.fetchFields(false);
+		if(false)
+              	{
+                	Tour.init();
+              	}
+		
+		var browsersname = {
+		       'Chrome':{'fullName':'Google Chrome','Lstvertion':'22+',"upgradelink":"https://www.google.com/chrome/browser"}, //no i18n
+		       'Safari':{'fullName':'Apple Safari','Lstvertion':'5+',"upgradelink":"http://www.apple.com/safari"}, //no i18n
+		       'Firefox':{'fullName':'Mozilla Firefox','Lstvertion':'16+',"upgradelink":"https://www.mozilla.org/en-US"}, //no i18n
+		       'MSIE':{'fullName':'Internet Explorer','Lstvertion':'9+',"upgradelink":"http://windows.microsoft.com/en-us/internet-explorer/download-ie"}, //no i18n
+		       'OPR':{'fullName':'Opera','Lstvertion':'22+',"upgradelink":"http://www.opera.com/computer/windows"} //no i18n
+		       };
+		PortalUI.unSupporedBrowserUI(browsersname);
+	
+				// Enable this script when mix panel used in client side
+				//PortalUI.addMixPanelCode("f6bf3d79ce7aafb0eaf76357d69b6991");
+	
+	ListViewUI.setViewIds(UserPref.userConfig.viewcolumns.indexes);
+	ListViewUI.init();
+		if(!true)
+		{
+			CommonUtil.showannouncement = false;// No need to show the announcement , Tips and Tricks for the embed script unused portals
+		}
+		var soid = CurrentUser.getWMSID().split('_')[1];
+		PortalUI.showEmbedUnusedAlert = !(true || Cookie.get(soid+"_embednotifyreminder") == "true" || false);
+		PortalUI.checkAndNotifyToEmbedCode();
+		UserUI.handleUpdateStatus();
+		DN.checkDeskNotiPermission();
+		
+		
+		if(soid == "21469597" || soid == "21535453")
+		{
+			if (window.addEventListener)
+			{
+				window.addEventListener("online", PortalUI.checkWMSAfterNetworkUp);
+			} 
+			else 
+			{
+				window.attachEvent("online",PortalUI.checkWMSAfterNetworkUp);
+			} 	
+		}
+		if(typeof CrmPlusImpl !== "undefined")
+		{	
+			CrmPlusImpl.trigger("UIReady"); //NO I18N
+		}
+		var tranferInvites = CommonUtil.getFromLocalStorage("transferchat_invite_"+CurrentUser.getLSUID());//NO I18N
+		//Showing transferinvite popups
+		if(tranferInvites){
+			tranferInvites = JSON.parse(tranferInvites);
+			for (var key in tranferInvites) {
+			  LSMessanger.transferChatInvite(tranferInvites[key]);
+			}
+		}
+		
+		Seasonal.init();
+        PortalUI.handleTrackingLimit();
+        //  avimpl.getUsersCallStatus();
+	}
+	catch(e){}
+}
+
+window.onbeforeunload=function()
+{
+        return PortalUI.handleOnbeforeUnload();
+}
+
+window.onZDLibraryReady=function()
+{
+        $("#upgradeinfo").after('<div id="onezoholauncher" style="width: 45px; height: 45px; float: left;"></div>');	
+        $(".hdr-logo").attr("style","width: 174px");
+        ZDLibrary.Launcher.init({
+        	icon : {
+        		element : document.getElementById("onezoholauncher"),
+                is_product_icon_available : false,
+                is_hamburger_available: false,
+                theme : 'dark' //No I18N
+        	},
+            menuBar: document.getElementById("productheader"),
+            csrfName : _CFPARAMNAME,
+            getCsrfValue : function(){
+            	return Cookie.get(_CFCNAME);
+            }
+        })
+};
+$(document).ready(function(){
+		try{
+			Department.fetchDeptAgentMapping();
+		}
+		catch(exp){
+		}
+	}
+);
+
+var servertime=1575061287546;
+CommonUtil.sdvtime=new Date().getTime(); //Server Diff Verified Time
+servertimediff=servertime/1000-CommonUtil.sdvtime/1000;
+var gtranslate = true;
+var portalcreatedtime = 1575060657928;
+var _BRANDNAME = "Zoho";
+
+function loadAudioInitIframe() {
+	/*
+		work around to overcome chrome's autoplay policy.
+	*/
+	if (! (/Chrome/.test(navigator.userAgent)) ) {
+		document.getElementById("audioInitIframe").remove();
+		return;
+	}
+	var extn = "mp3"; // No I18N
+	if (new Audio().canPlayType("audio/wav") != "" && new Audio().canPlayType("audio/wav") != "no") {
+		extn = "wav" // No I18N
+	}
+	document.getElementById("audioInitIframe").src = _SCHEMA + "://" + _SERVERURL+ '/sound/silence.' + extn;
+}
+loadAudioInitIframe();
+</script>
+<div id="tooltip" style="display:none"></div>
+
+ <!--div id='userfeedback' class='newui_fdbak' onclick="PortalUI.populateUserFeedBackUI()"><em>How is the new UI?</em><span onclick="PortalUI.handleUserFeedback(false,event)"></span></div-->
+
+<div id="embednotify" class="lvd_hdrmn anocemnt siq_banner bnr_latest" style="right: -320px; z-index: 10001;bottom: 24px;" style="display:none"></div>
+
+</body>
+</html>
